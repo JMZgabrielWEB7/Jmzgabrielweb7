@@ -1,16 +1,75 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Villarroel | Portafolio</title>
+    <link rel="stylesheet" href="portafolioSO.css">
+</head>
+<body>
 
-<!--
-**JMZgabrielWEB7/Jmzgabrielweb7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <div class="container">
+        
+        <!-- Encabezado Principal -->
+        <header>
+            <h1>Gabriel Antonio Villarroel Jimenez</h1>
+            <p class="subtitle">Estudiante de Informática & Desarrollador en Formación</p>
+            <p class="motto">"Haz de tu vida un sueño, y de tu sueño una realidad."</p>
+        </header>
 
-Here are some ideas to get you started:
+        <!-- Sobre Mí -->
+        <section>
+            <h2 class="section-title">Sobre Mí</h2>
+            <p>Estudiante enfocado en la lógica de programación, arquitectura de sistemas y virtualización. Apasionado por comprender la estructura del software desde sus fundamentos teóricos y algoritmos hasta la implementación en entornos de desarrollo y sistemas operativos.</p>
+        </section>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        <!-- Áreas de Conocimiento / Habilidades -->
+        <section>
+            <h2 class="section-title">Conocimientos & Herramientas</h2>
+            <div class="skills-grid">
+                <div class="skill-card">Lógica de Programación</div>
+                <div class="skill-card">PSeInt & Algoritmos</div>
+                <div class="skill-card">Sistemas Operativos</div>
+                <div class="skill-card">Virtualización (VMware/VirtualBox)</div>
+                <div class="skill-card">Diseño UI/UX (Figma)</div>
+                <div class="skill-card">HTML5 & CSS3</div>
+            </div>
+        </section>
+
+        <!-- Proyectos y Experiencia -->
+        <section>
+            <h2 class="section-title">Proyectos & Entornos de Trabajo</h2>
+            <div class="projects-list">
+                <div class="project-item">
+                    <h3>Implementación de Entornos Virtuales</h3>
+                    <p>Configuración, particionado de discos y administración de sistemas operativos en máquinas virtuales (Windows Server, Linux/Ubuntu) optimizados para pruebas y laboratorios.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Diseño de Interfaces Colaborativas</h3>
+                    <p>Creación de prototipos visuales y esquemas conceptuales en Figma aplicados al desarrollo de aplicaciones.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Evaluación de Código & Testing</h3>
+                    <p>Participación en plataformas de entrenamiento e inspección de código fuente para el análisis de modelos de inteligencia artificial.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contact-section">
+            <h2 class="section-title">Contacto</h2>
+            <p class="contact-text">¿Te interesa colaborar en un proyecto o revisar mis avances?</p>
+            <div class="contact-links">
+                <a href="mailto:tu-correo@example.com" class="btn btn-primary">Enviar Correo</a>
+                <a href="#" class="btn btn-secondary">Perfil de GitHub</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Gabriel Villarroel. Todos los derechos reservados.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
